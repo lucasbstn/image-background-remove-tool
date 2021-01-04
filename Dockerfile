@@ -7,7 +7,7 @@ COPY . .
 # Dependency Installation
 RUN pip3 install --no-cache-dir -r requirements_http.txt
 # Download Models
-RUN (python3 setup.py --model all)
+RUN (python3 setup.py --model u2net)
 # Setting environment variables
 ENV HOST='0.0.0.0'
 ENV PORT='8080'
