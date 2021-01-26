@@ -12,7 +12,7 @@ RUN (python3 setup.py --model mobile_net_model)
 ENV HOST='0.0.0.0'
 ENV PORT='8080'
 ENV AUTH='false'
-ENV MODEL='mobile_net_model'
+ENV MODEL='u2netp'
 ENV PREPROCESSING='bbd-fastrcnn'
 ENV POSTPROCESSING='rtb-bnb'
 ENV ADMIN_TOKEN='admin'
